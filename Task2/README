@@ -1,33 +1,45 @@
 PageRank Implementation
 =======================
 
+
 This repository contains a Python implementation of the PageRank algorithm and the dataset used for evaluation.
+
 
 Files
 -----
 
+
 -   **calcPageRank.py** -- Python script implementing both iterative and closed-form PageRank algorithms using a sparse matrix representation. Handles dangling nodes, non-consecutive page IDs, and large sparse graphs efficiently.
 -   **web-Google_10k.txt** -- Sample dataset (10,000 pages, 78,323 links) used for testing. The first 4 lines are metadata and are skipped by the script.
 
+
 Dependencies
 ------------
+
 
 -   Python 3.x
 -   NumPy
 -   SciPy
 
+
 Install required libraries using:
 
+
 pip install numpy scipy
+
 
 Usage
 -----
 
+
 1.  Run the script:
+
 
 python calcPageRank.py
 
+
 (By default, it uses `web-Google_10k.txt`. To use a different dataset, update the filename inside the script.)
+
 
 1.  The script prints:
     -   Number of nodes in the graph
@@ -35,8 +47,10 @@ python calcPageRank.py
     -   Top 10 pages by closed-form PageRank (sparse solver)
     -   L1 difference between iterative and closed-form PageRank
 
+
 Notes
 -----
+
 
 -   Iterative PageRank continues until the change in the PageRank vector is below a tolerance threshold (`tol=1e-6`).
 -   Closed-form PageRank uses a sparse linear solver for efficiency on large graphs.
