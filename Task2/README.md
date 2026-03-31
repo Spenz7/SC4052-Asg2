@@ -21,7 +21,14 @@ pip install numpy scipy
 
 ## Usage
 
-Run the script:
+1.  Clone the repository or download the file:
+
+```bash
+git clone https://github.com/Spenz7/SC4052-Asg2.git
+cd SC4052-Asg2/Task3
+```
+
+2.  Run the script:
 
 ```bash
 python calcPageRank.py
