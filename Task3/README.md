@@ -23,7 +23,7 @@ Setup & Run
 1.  Clone the repository or download the file:
 
 ```bash
-git clone https://github.com/yourusername/task3_crawler.git\
+git clone https://github.com/Spenz7/SC4052-Asg2.git\
 cd task3_crawler
 ```
 
