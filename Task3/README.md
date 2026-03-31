@@ -22,17 +22,23 @@ Setup & Run
 
 1.  Clone the repository or download the file:
 
+```bash
 git clone https://github.com/yourusername/task3_crawler.git\
 cd task3_crawler
+```
 
-1.  Run the script:
+2.  Run the script:
 
+```bash
 python task3_crawler.py
+```
 
 Example Output
 --------------
 
+```bash
 Top pages to crawl: ['https://siteA.com', 'https://siteC.com', 'https://siteB.com']
+```
 
 Notes
 -----
